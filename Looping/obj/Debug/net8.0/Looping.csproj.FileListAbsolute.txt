@@ -1,0 +1,14 @@
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\bin\Debug\net8.0\Looping.exe
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\bin\Debug\net8.0\Looping.deps.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\bin\Debug\net8.0\Looping.runtimeconfig.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\bin\Debug\net8.0\Looping.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\bin\Debug\net8.0\Looping.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.AssemblyInfoInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.AssemblyInfo.cs
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.csproj.CoreCompileInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\refint\Looping.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\Looping.genruntimeconfig.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\Looping\obj\Debug\net8.0\ref\Looping.dll

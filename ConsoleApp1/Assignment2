@@ -1,0 +1,20 @@
+
+1. When to use String vs. StringBuilder in C#?
+   - String: Use `String` for text data that does not change frequently. `String` objects are immutable; once created, they cannot be altered. Any modifications result in the creation of a new string.
+   - StringBuilder: Use `StringBuilder` when you need to make frequent modifications to a string, such as in loops or when constructing large amounts of text dynamically. `StringBuilder` is mutable and provides methods for modifying text in place, which can be more efficient.
+
+2. What is the base class for all arrays in C#?
+   - The base class for all arrays in C# is `System.Array`. This class provides methods and properties to interact with arrays.
+
+3. How do you sort an array in C#?
+   - Use the `Array.Sort()` method to sort an array. For example, `Array.Sort(array);` sorts an array in ascending order by default. You can also provide a custom comparer if needed.
+
+4. What property of an array object can be used to get the total number of elements in an array?
+   - The `Length` property of an array returns the total number of elements in the array. For example, `array.Length` gives you the count of elements.
+
+5. Can you store multiple data types in System.Array?
+   - Yes, you can store multiple data types in an instance of `System.Array` if it is an array of type `object`, since `object` is the base type of all data types in C#. For instance, `object[] array = { 1, "string", 3.14 };` However, it is not type-safe and is generally not recommended for regular use.
+
+6.What's the difference between the `System.Array.CopyTo()` and `System.Array.Clone()`
+   - **CopyTo()**: The `CopyTo()` method copies the elements from the current array to another existing array starting at a specified index position. This method requires that the destination array has already been instantiated.
+   - **Clone()**: The `Clone()` method creates a new array object containing all the elements in the original array, essentially making a shallow copy. The array returned by `Clone()` needs to be cast to the appropriate data type because `Clone()` returns an `object`.

@@ -1,0 +1,70 @@
+Understanding Data Types - Test your Knowledge Answers
+ 1. What type would you choose for the following “numbers”?
+- A person’s telephone number**: string
+- A person’s height: float or double 
+- A person’s age: int
+- A person’s gender (Male, Female, Prefer Not To Answer): string or an enum
+- A person’s salary: decimal
+- A book’s ISBN: string 
+- A book’s price: decimal
+- A book’s shipping weight: float or double
+- A country’s population: int or long
+- The number of stars in the universe: ulong
+- The number of employees in each of the small or medium businesses in the United Kingdom (up to about 50,000 employees per business): int
+
+2. What are the differences between value type and reference type variables? What is boxing and unboxing?
+- Value Type and Reference Type Variables: 
+  - Value types store data directly in their own memory allocation. Examples include basic data types like `int`, `double`, `bool`, and `structs`. They are typically stored on the stack, which allows for fast access but has size limitations.
+  - Reference types store a reference to the data's memory address rather than the data itself. Examples are `strings`, `arrays`, and all types that derive from `System.Object`. They are stored on the heap, which is managed by the .NET garbage collector.
+- Boxing and Unboxing:
+  - Boxing is the process of converting a value type to a reference type, thus storing the value type object on the heap.
+  - Unboxing is the reverse process, converting a reference type back into a value type by extracting the value type from the object on the heap.
+
+3. What is meant by the terms managed resource and unmanaged resource in .NET?
+- Managed resources are those that are handled by the .NET Framework's garbage collector. This includes all .NET types that directly or indirectly derive from `System.Object`.
+- Unmanaged resources are resources that are not handled by the garbage collector. These typically include resources that are directly managed by the operating system, such as file handles, network connections, database connections, and interop with other non-.NET applications. Managing unmanaged resources requires explicit handling in code to ensure proper release.
+
+4. What's the purpose of Garbage Collector in .NET?
+- The Garbage Collector (GC) in .NET automatically manages the allocation and release of memory for your applications. 
+Its primary purposes are:
+  - Memory Management: It automatically frees objects that are no longer being used by the application, which helps prevent memory leaks.
+  - Optimizing Memory Allocation: It organizes the heap efficiently, compacting it as necessary to ensure that memory allocation and deallocation are fast operations.
+  - Improving Application Performance: By removing the need for manual memory management, developers can focus on application logic, leading to fewer bugs and performance issues related to improper memory handling.
+
+Controlling Flow and Converting Types
+
+ 1. What happens when you divide an int variable by 0?
+   You will encounter a System.DivideByZeroException because division by zero is undefined for integer types in C#.
+  
+ 2. What happens when you divide a double variable by 0?
+   Dividing a double by zero does not cause an exception. Instead, it results in double.PositiveInfinity, double.NegativeInfinity, or double.NaN (Not a Number) depending on the sign and context of the operation.
+
+3. What happens when you overflow an int variable, that is, set it to a value beyond its range?
+  If overflow checking is disabled (the default setting in C#), the integer will wrap around within its valid range, potentially leading to incorrect and unexpected values. If overflow checking is enabled (with the checked keyword), a System.OverflowException is thrown.
+  
+4.What is the difference between x = y++; and x = ++y;?
+  x = y++; sets x to the current value of y, then increments y by one (post-increment).
+  x = ++y; increments y by one first, then sets x to the new value of y (pre-increment).
+  
+5. What is the difference between break, continue, and return when used inside a loop statement?
+  break: exits the loop immediately and transfers control to the statement following the loop.
+  continue:skips the remaining statements in the current iteration and proceeds to the next iteration of the loop.
+  return: exits the loop and the entire method in which the loop is contained, immediately returning a value if the method is not void.
+  
+6. What are the three parts of a for statement and which of them are required?
+  The three parts are: initialization (int i = 0;), condition (i < 10;), and iteration (i++).
+  All three parts are optional in syntax, but omitting the condition makes the loop infinite unless controlled by break or another exit strategy within the loop's body.
+
+  
+7. What is the difference between the `=` and `==` operators?
+     - `=` is the assignment operator, used to assign the value on its right to the variable on its left.
+     - `==` is the equality operator, used to compare two values for equality. It returns a boolean value indicating whether the operands are equal.
+  
+  8. Does the following statement compile? `for (;true;)`
+     - Yes, it compiles. This is a valid syntax for an infinite loop since the condition is always `true` and there are no initialization or iteration expressions specified.
+  
+  9. What does the underscore `_` represent in a switch expression?
+     - The underscore `_` is used as a discard in C# switch expressions, serving as a wildcard match. It is used to catch all cases that haven't been explicitly handled by the other case patterns.
+  
+  10. What interface must an object implement to be enumerated over by using the `foreach` statement?
+     - An object must implement the `IEnumerable` or `IEnumerable<T>` interface to be used in a `foreach` statement. These interfaces provide the `GetEnumerator` method, which returns an enumerator that can iterate through the collection.

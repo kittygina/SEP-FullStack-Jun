@@ -1,0 +1,14 @@
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\bin\Debug\net8.0\MostFrequent.exe
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\bin\Debug\net8.0\MostFrequent.deps.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\bin\Debug\net8.0\MostFrequent.runtimeconfig.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\bin\Debug\net8.0\MostFrequent.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\bin\Debug\net8.0\MostFrequent.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.AssemblyInfoInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.AssemblyInfo.cs
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.csproj.CoreCompileInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\refint\MostFrequent.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\MostFrequent.genruntimeconfig.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\MostFrequent\obj\Debug\net8.0\ref\MostFrequent.dll

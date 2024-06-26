@@ -1,0 +1,14 @@
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\bin\Debug\net8.0\CopyingArray.exe
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\bin\Debug\net8.0\CopyingArray.deps.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\bin\Debug\net8.0\CopyingArray.runtimeconfig.json
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\bin\Debug\net8.0\CopyingArray.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\bin\Debug\net8.0\CopyingArray.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.AssemblyInfoInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.AssemblyInfo.cs
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.csproj.CoreCompileInputs.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\refint\CopyingArray.dll
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.pdb
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\CopyingArray.genruntimeconfig.cache
+C:\Users\afuda\RiderProjects\ConsoleApp1\CopyingArray\obj\Debug\net8.0\ref\CopyingArray.dll
