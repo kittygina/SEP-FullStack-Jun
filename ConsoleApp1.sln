@@ -32,6 +32,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestSequence", "LongestS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MostFrequent", "MostFrequent\MostFrequent.csproj", "{B17FE13A-8870-4E22-B58A-56D9FC6DD542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeStrings", "PracticeStrings\PracticeStrings.csproj", "{7B8B64DA-CA38-4A43-9894-C1BBB94F4CE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +104,9 @@ Global
 		{B17FE13A-8870-4E22-B58A-56D9FC6DD542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B17FE13A-8870-4E22-B58A-56D9FC6DD542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B17FE13A-8870-4E22-B58A-56D9FC6DD542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B8B64DA-CA38-4A43-9894-C1BBB94F4CE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8B64DA-CA38-4A43-9894-C1BBB94F4CE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8B64DA-CA38-4A43-9894-C1BBB94F4CE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8B64DA-CA38-4A43-9894-C1BBB94F4CE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
